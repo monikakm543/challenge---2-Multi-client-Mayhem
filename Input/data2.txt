@@ -1,0 +1,108 @@
+This is a test file for the Multi-Client Mayhem project. It is used to test the file transfer system between multiple clients and a central server. The server receives the file, splits it into chunks, and sends it back to the client while verifying its integrity using checksums.
+
+The purpose of this test is to ensure that:
+1. The file is uploaded correctly.
+2. The file is split into correct chunk sizes.
+3. The file is transmitted back without corruption.
+4. Checksums match between server and client.
+5. The retransmission mechanism handles missing packets.
+6. Multiple clients can upload files simultaneously without interference.
+
+Testing network reliability is crucial. Simulating packet loss, out-of-order delivery, and corruption can help build a more robust file transfer system. The program should be capable of handling these network issues efficiently.
+
+By performing this test, we validate that the server can handle large files, maintain concurrency, and manage errors gracefully. The client should successfully reassemble the file and verify its integrity using a SHA256 checksum.
+
+File transfer is an essential part of networking applications. Whether it’s cloud storage, peer-to-peer sharing, or enterprise-level data synchronization, efficient file transmission and verification mechanisms ensure data integrity and reliability.
+
+This test also checks for latency issues when handling multiple simultaneous client connections. Proper threading or asynchronous programming ensures smooth performance even under high load conditions.
+
+This text is intentionally extended to reach approximately 5 KB in size. Additional random words are included below to fill up space:
+
+
+The Features Implemented for the problem are :
+Multi-Client Support (via threading
+TCP Sockets for Reliable Transfer
+File Chunking & Sequencing
+Checksum Verification (SHA-256)
+Simulated Packet Loss & Corruption
+Retransmission Logic
+Independent Session Handling
+
+brief about client an server:
+Client-server networks are computer networks that employ a dedicated computer to store data, manage/provide resources, and control user access (server). The server connects all of the other computers in the network by acting as a hub. A machine that connects to the server is known as a client.
+
+
+client server relationships examples:
+A client usually does not share any of its resources, but it requests content or service from a server. Clients, therefore, initiate communication sessions with servers, which await incoming requests. Examples of computer applications that use the client–server model are email, network printing, and the World Wide Web
+
+role of client server:
+
+Clients are the devices that request and use the services provided by the servers, such as web browsing, email, file sharing, or printing. Servers are the devices that offer and deliver the services to the clients, such as web hosting, email processing, file storage, or print spooling.
+
+main role of client:
+
+The principal role of clients is to ensure that they achieve a solution to their business goals and to do this they have to: Apply effective leadership and governance. Create the project environment for success. Create interdependent roles and identify their responsibilities.
+
+why client is important:
+
+clients are your biggest asset. Without a strong customer base, a business will fall apart. Although acquiring new customers is necessary for business growth, maintaining good relationships with your current customers is just as important.
+
+difference between internet and client-server?
+
+A client is a device or program that uses the internet to make service requests, while a server is a device or software that fulfills those requests for clients. An application that runs on a device and provides services to other devices connected to a network is known as a server.
+
+which is better client pr server?
+
+Because server-side processes are executed on the web server, they are typically more secure and less vulnerable to tampering or malicious attacks. Client-side processes, on the other hand, are executed on the user's device, which means that they are potentially less secure and more susceptible to tampering or attacks
+
+which is faster client or server side?
+
+Client-side rendering is generally faster after the first load, as it can store data and resources in the browser's cache, leading to improved load times for subsequent visits. However, the initial loading of a web page can be slower, as all the necessary code and resources must be downloaded to the client's device.
+
+Is client-server better than p2p?
+
+This means that clients request and receive data from servers, which handle the processing and storage. Client-server networks are more efficient, reliable, and secure than peer-to-peer networks, as they can handle large amounts of data, distribute the workload, and implement security measures.
+
+what is peer-to-peer process?
+
+A peer-to-peer (P2P) process is a decentralized network architecture where participants communicate directly with each other. It's a distributed application architecture that allows peers to share information, files, or other resources without the need for a central server. 
+How does a P2P process work? 
+A device discovers other peers in its vicinity.
+The peers establish connections with each other.
+The peers exchange information, such as files or other resources.
+Examples of P2P processes 
+File sharing
+BitTorrent is a P2P file-sharing protocol that allows users to share large files.
+Communication
+Skype is a communication platform that uses P2P networking to provide voice and video calls.
+Financial transactions
+Bitcoin is a digital currency that uses blockchain technology and a decentralized structure to provide secure and transparent transactions.
+Types of P2P networks
+Structured: These networks are organized using software to provide better access to rare content. 
+Unstructured: These networks are less complex to build than structured networks. 
+Hybrid: These networks combine centralized and decentralized elements. 
+
+what is meant by client-server network?
+
+A client-server network is a computing model in which multiple clients connect to a central server to access resources, such as files, applications, and data. The server acts as a central hub, managing and providing services to the connected clients.
+
+What are the three types of client-server models?
+
+
+What Is Client-Server Architecture? | Liquid Web
+There are several types of client-server networks, including 1-tier architecture, 2-tier architecture, 3-tier architecture, and n-tier architecture. One way to describe the difference between them is by how they organize the presentation, business logic, and data layers.
+
+What are the 3 functions of a client-server network?
+
+A client in a client-server network performs three main functions: initiating requests, processing responses, and communicating with other clients. A client initiates a request by sending a message to the server using a specific protocol, such as HTTP, SMTP, FTP, or SMB
+
+What are 3 advantages of a client-server network?
+
+Advantages of the Client-Server Network
+
+Easy recovery of files is possible since backups are centrally controlled by network administrators. More secure since files and everything else are centralized on such networks. Larger networks can be created as new clients and servers can be added to the network.
+
+What are the uses of client-server model?
+
+What is Client-Server Network? Definition, Advantages, and ...
+A key advantage of the client-server network is the central administration of applications and data. A client-server network facilitates data transmission while protecting the sent data. Using the network is a smart solution for businesses looking for quicker and more secure data transfer

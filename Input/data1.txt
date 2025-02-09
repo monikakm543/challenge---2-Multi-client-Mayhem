@@ -1,1 +1,25 @@
+What is a Client Server Network?
+A client server network is a network topology that serves as a medium through which clients access services and resources from the central computer through LAN or WAN. In this network model, multiple client programs will share the services of a common server. These networks use both server and client hardware devices.
 
+They are preferred over peer-to-peer networking due to the availability of a central server that manages the networks. In this network, client devices come with network software applications installed to request and receive information over its network. Web browsers, web servers, DNS, FTP clients and servers are examples of the client-server network.
+
+Servers
+Server is a computer that provides resources that can be used by authorized client stations. The access to data available on a server is based on the security priority. If the data is highly sensitive, then the access may be limited and require authorization. The data available on server is managed centrally and is automated. Servers store files, databases, applications, and websites. 
+
+Client
+Client is a computer device that enables a user to access a network. These are used for making requests to servers for accessing data. A client device does not have the authority to force the server to respond to its request. If a client has limited accessibility, it will not be able to view the data even if it is available on the server. 
+
+In LAN
+In local area network (LAN), servers can be connected to multiple client computers and printers. Let us consider that there are five client computers and one printer connected to a server. When computer A wants to send few files to computer B then, computer A will first send a request to the server. Then this server will connect computer A to computer B. Computer A will then send files to computer B through this server. Similarly, when computer A wants to access the printer, the server will help the computer A to connect with the printer.
+
+In WAN
+In a wide area network (WAN), computer is the client that wants to access a particular website on, suppose, ‘abc.com’. The ‘abc.com’ web server will respond to client computer by sending the data to client computer or the browser. Similarly, your mobile will behave as a client and your mobile tower will behave as a server. Your mobile will make the call and mobile tower will connect your call to another mobile.
+
+Types of Clients
+Fat Clients (Thick Clients): These are computers that can process data independently. Fat clients have their own processing power and storage that allows them to perform many tasks without constant server connection. For example, a desktop computer running complex CAD software can process designs locally while only connecting to the server for file storage. These clients have high-end processors, RAM (8GB+), and local storage. While they are more expensive, they continue working even with temporary server disconnections.
+Thin Clients: These are simpler devices that rely heavily on the server for processing. Think of a computer terminal used for data entry in a bank. It has minimal local processing power and storage, depending on the server for most operations. Thin clients are cheaper (usually 50-70% less than fat clients), easier to maintain, and more secure since they store minimal data locally. They are commonly used in call centers, libraries, and educational institutions where users need basic computing capabilities.
+Mobile Clients: These include smartphones, tablets, and laptops that connect to servers through wireless networks. Mobile clients combine aspects of both fat and thin clients - they can process data locally but often rely on cloud servers for storage and heavy processing. For example, whenever you use a banking app on your phone, it acts as a mobile client that will connect to the bank's servers.
+
+Types of Servers
+File Servers: These servers specialize in storing and managing files for network users. They handle file storage, sharing, and security, and manage huge amounts of data. File servers allow employees to access shared documents, maintain version control, and backup important files. They use high-capacity storage systems and can handle hundreds of simultaneous file requests.
+Application Servers: These run and manage network applications. For example, when a company uses a customer relationship management (CRM) system, the application server hosts the CRM software, processes data, and serves results to users. They require powerful processors and substantial RAM (often 32GB+) to handle multiple application instances and users simultaneously.
